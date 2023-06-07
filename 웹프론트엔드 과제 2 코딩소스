@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            width: 100%;
+        }
+
+        .form-wrapper {
+            width: 50%;
+            float: left;
+        }
+
+        .resume-wrapper {
+            width: 50%;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <style>
+                body {
+                    background-image: url("이력서배경.jpg");
+                    background-color: lightblue;
+                    background-size: 100;
+                    background-repeat: no-repeat;
+                }
+            </style>
+            <style>
+                tbody {
+                    font-family: "Times New Roman", serif;
+                }
+                thead {
+                    font-family: "Comics Sans MS", cursive;
+                }
+            </style>
+            <body>
+                <body>
+                    <body>
+                        <h2>이력서</h2>
+                        <hr>
+                        <ul>
+                            <li><a href="#paragraph1">신상</a></li>
+                            <li><a href="#paragraph2">학력사항</a></li>
+                            <li><a href="#paragraph3">자격면허</a></li>
+                            <li><a href="#paragraph4">수상(경력)</a></li>
+                        </ul>
+                        <table border="1">
+                        <tr>
+                        <table id="personal-info">
+                        <table border="1">
+                            <img src="강아지.jpg" alt="마루" width="200">
+                            <body>
+                            <audio src="오디오.m4a" controls="controls"></audio>           
+                            <tr>
+                                <p id="paragraph1"><th rowspan="3" width="200" height="30" bgcolor="#D9E5FF">성명</th></p>
+                                <td width="200" height="30" bgcolor="#E0FFFF">(한글) 김하랑</td>
+                            </tr>
+                                <tr><td width="200" height="30" bgcolor="#E0FFFF">(한자) 金하랑</td></tr>
+                                <tr><td width="200" height="30" bgcolor="#E0FFFF">(영문) Kim Ha Rang</td></tr>
+                            <tr>
+                                <th rowspan="1" width="200" height="30" bgcolor="#D9E5FF">생년월일</th>
+                                <td bgcolor="#E0FFFF">2004.10.08</td>
+                                <th rowspan="1" width="200" height="30" bgcolor="#D9E5FF">주소</th>
+                                <td width="250" height="30" bgcolor="#E0FFFF">서울특별시 성동구 살곶이길 200</td>
+                            </tr>
+                        </table>
+                        <table id="educational-background">
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                <tr>
+                                <p id="paragraph2"><th rowspan="4" width="100" height="20" bgcolor="#FA8072">학력사항</th></p>
+                                </tr>
+                                <tr>
+                                    <th width="250" height="30" bgcolor="#FA8072">기간</th>
+                                    <th width="180" height="30" bgcolor="#FA8072">출신학교</th>
+                                    <th width="130" height="30" bgcolor="#FA8072">전공</th>
+                                    <th width="80" height="30" bgcolor="#FA8072">학점</th>
+                                    <th width="100" height="30" bgcolor="#FA8072">졸업여부</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th bgcolor="#FFF0F5"></th>
+                                    <td width="250" height="30" bgcolor="#FFF0F5">2020.03~2023.02</td>
+                                    <td width="180" height="30" bgcolor="#FFF0F5">세인트마리학교</td>
+                                    <td width="130" height="30" bgcolor="#FFF0F5">초콜릿공예과</td>
+                                    <td width="80" height="30" bgcolor="#FFF0F5">X</td>
+                                    <td width="100" height="30" bgcolor="#FFF0F5">졸업</td>
+                                </tr>
+                                <tr>
+                                    <th bgcolor="#FFF0F5"></th>
+                                    <td width="250" height="30" bgcolor="#FFF0F5">2020.03~2023.02</td>
+                                    <td width="180" height="30" bgcolor="#FFF0F5">서울대학교</td>
+                                    <td width="130" height="30" bgcolor="#FFF0F5">음악학과</td>
+                                    <td width="80" height="30" bgcolor="#FFF0F5">3.7/4.5</td>
+                                    <td width="100" height="30" bgcolor="#FFF0F5">졸업</td>
+                                </tr>
+                                <tr>
+                                    <th bgcolor="#FFF0F5"></th>
+                                    <td width="250" height="30" bgcolor="#FFF0F5">2023.03~2025.02</td>
+                                    <td width="180" height="30" bgcolor="#FFF0F5">한양여자대학교</td>
+                                    <td width="130" height="30" bgcolor="#FFF0F5">빅데이터과</td>
+                                    <td width="80" height="30" bgcolor="#FFF0F5">4.4/4.5</td>
+                                    <td width="100" height="30" bgcolor="#FFF0F5">재학</td>
+                                </tr>
+                            </tr>
+                        </table>
+                        <table id="work-experience">
+                            <table border="1">
+                                <thead>
+                                    <tr>
+                                    <p id="paragraph3"><th rowspan="4" width="100" height="20" bgcolor="#98FB98">자격면허</th></p>
+                                    </tr>
+                                    <tr>
+                                        <th width="250" height="30" bgcolor="#98FB98">자격(면허)명</th>
+                                        <th width="70" height="30" bgcolor="#98FB98">등급</th>
+                                        <th width="150" height="30" bgcolor="#98FB98">취득년월일</th>
+                                        <th width="275" height="30" bgcolor="#98FB98">발행기관</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th bgcolor="#F0FFF0"></th>
+                                        <td width="250" height="30" bgcolor="#F0FFF0">고양이랑 대화하기</td>
+                                        <td width="70" height="30" bgcolor="#F0FFF0">1급</td>
+                                        <td width="150" height="30" bgcolor="#F0FFF0">2020.01.18</td>
+                                        <td width="275" height="30" bgcolor="#F0FFF0">세상에나쁜고양이는없다회</td>
+                                    </tr>
+                                    <tr>
+                                        <th bgcolor="#F0FFF0"></th>
+                                        <td width="250" height="30" bgcolor="#F0FFF0">초콜릿 시럽 맛있게 먹는 법</td>
+                                        <td width="70" height="30" bgcolor="#F0FFF0">2급</td>
+                                        <td width="150" height="30" bgcolor="#F0FFF0">2022.07.20</td>
+                                        <td width="275" height="30" bgcolor="#F0FFF0">세계초콜릿본부</td>
+                                    </tr>
+                                    <tr>
+                                        <th bgcolor="#F0FFF0"></th>
+                                        <td width="250" height="30" bgcolor="#F0FFF0">제과기능사</td>
+                                        <td width="70" height="30" bgcolor="#F0FFF0">2급</td>
+                                        <td width="150" height="30" bgcolor="#F0FFF0">2025.09.18</td>
+                                        <td width="275" height="30" bgcolor="#F0FFF0">식품의약품안전처</td>
+                                    </tr>
+                                </table>
+                                <table border="1">
+                                    <thead>
+                                        <tr>
+                                        <p id="paragraph4"><th rowspan="4" width="100" height="20" bgcolor="#FFDAB9">경력(수상)</th></p>
+                                        </tr>
+                                        <tr>
+                                            <th width="100" height="30" bgcolor="#FFDAB9">수상년월일</th>
+                                            <th width="250" height="30" bgcolor="#FFDAB9">수상명</th>
+                                            <th width="400" height="30" bgcolor="#FFDAB9">수상사유</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th bgcolor="#FFFAF0"></th>
+                                            <td width="100" height="30" bgcolor="#FFFAF0">2020.03.08</td>
+                                            <td width="250" height="30" bgcolor="#FFFAF0">고양이 언어 부문 우수상</td>
+                                            <td width="400" height="30" bgcolor="#FFFAF0">고양이의 언어를 훌륭하게 구사할 수 있어서 수상함.</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <th bgcolor="#FFFAF0"></th>
+                                            <td width="100" height="30" bgcolor="#FFFAF0">2018.6.13</td>
+                                            <td width="250" height="30" bgcolor="#FFFAF0">멍 때리기 장려상</td>
+                                            <td width="400" height="30" bgcolor="#FFFAF0">오랜 시간 멍을 때려 수상함.
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <th bgcolor="#FFFAF0"></th>
+                                            <td width="100" height="30" bgcolor="#FFFAF0">2021.11.17</td>
+                                            <td width="250" height="30" bgcolor="#FFFAF0">모범상</td>
+                                            <td width="400" height="30" bgcolor="#FFFAF0">성실하고 훌륭한 태도로 모범을 보여 수상함.</td>
+                                        </tr>
+                                    </tbody>
+                        </table>
+                    </tr>
+                    </table>
+                    </body>
+                    <head>
+                        <style>
+                            h5:hover {
+                                color: red;
+                            }
+                        </style>
+                    </head>
+                    <body>
+                        프로필 사진 출처:<h5>https://namu.wiki/w/%EB%A7%88%EB%A3%A8%EB%8A%94%20%EA%B0%95%EC%A5%90 </h5>
+                        이력서 배경 사진 출처:<h5>https://www.pinterest.co.kr/hipm12/%ED%9D%B0%EC%83%89-%EA%B0%90%EC%84%B1%EC%82%AC%EC%A7%84/ </h5>
+                    </body>
+                    
+                    <style>
+                        footer {
+                            font-family: "fantasy", Impact, 'Arial Narrow Bold', sans-serif;
+                        }
+                    </style>
+                    <footer>
+                        <p>제작자: 김하랑 (kim ha rang)</p>
+                        <p>학번: 2302544</p>
+                    </footer>
+                </body>
+            </body>
+        </div>
+        <div class="resume-wrapper">
+            <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        input {
+            transition: background-color 0.3s ease;
+        }
+
+        input:hover {
+            cursor: pointer;
+            background-color: lightblue;
+        }
+    </style>
+    <script>
+        function changeBackgroundColor(input) {
+            input.style.backgroundColor = "lightblue";
+        }
+
+        function resetBackgroundColor(input) {
+            input.style.backgroundColor = "";
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label for="username">이름</label></td>
+                <td><input id="username" type="text" name="username" onmouseover="changeBackgroundColor(this)" onmouseout="resetBackgroundColor(this)"></td>   
+            </tr>
+            <img src="다운로드.jpg" alt="마루" width="100">
+            <tr>
+                <td>성별</td>
+                <td>
+                    <input id="woman" type="radio" name="gender" value="w" checked onmouseover="changeBackgroundColor(this)" onmouseout="resetBackgroundColor(this)">
+                    <label for="woman">여자</label>
+                    <input id="man" type="radio" name="gender" value="m" onmouseover="changeBackgroundColor(this)" onmouseout="resetBackgroundColor(this)">
+                    <label for="man">남자</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="birthdate">생년월일(양력)</label></td>
+                <td><input id="birthdate" type="text" name="birthdate"></td>
+            </tr>
+            <tr>
+                <td><label for="birthdate">생년월일(음력)</label></td>
+                <td><input id="birthdate" type="text" name="birthdate"></td>
+            </tr>
+            <tr>
+                <td><label for="age">나이</label></td>
+                <td><input id="age" type="text" name="age"></td>
+            </tr>
+            <tr>
+                <td><label for="address">주소</label></td>
+                <td><input id="address" type="text" name="address"></td>
+            </tr>
+        </tr>
+    </table>
+    <h4>가입이유</h4>
+    <select>
+        <option>코딩을 배우기 위해서</option>
+        <option>코딩천재가 되기 위해서</option>
+        <option>컴퓨터에 대해 잘 몰라서</option>
+        <option>기타 등등...</option>
+    </select>
+    <h4>Capcha</h4>
+    <img src="캡챠이미지.jpg" alt="캡챠이미지" width="200">
+    <tr>
+        <td><label for="capcha">확인단어</label></td>
+        <td><input id="capcha" type="text" name="capcha"></td> 
+    </tr>
+    <h6>(위의 단어를 입력해 주십시오.)</h6>
+    <input type="button" value="확인"><br>
+</form>
+</body>
+<head>
+    <style>
+        h5:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    캡챠 이미지 출처:<h5>https://hisastro.com/1771</h5>
+</body>
+<footer>
+<p>제작자: 김하랑 (kim ha rang)</p>
+<p>학번: 2302544</p>
+</footer>
+        </div>
+    </div>
+</body>
+</html>
